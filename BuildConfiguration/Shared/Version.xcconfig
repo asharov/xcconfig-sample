@@ -1,0 +1,10 @@
+//
+//  Version.xcconfig
+//  xcconfig-sample
+//
+//  Created by Jaakko Kangasharju on 04.07.17.
+//  Copyright © 2017 Futurice. All rights reserved.
+//
+
+BUNDLE_VERSION = 1.2.1
+LONG_BUNDLE_VERSION = 1.2.1-fancy-detail-02
