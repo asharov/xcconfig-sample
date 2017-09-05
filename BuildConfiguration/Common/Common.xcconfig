@@ -8,6 +8,8 @@
 
 #include "Version.xcconfig"
 
+SDKROOT = iphoneos
+ALWAYS_SEARCH_USER_PATHS = NO
 LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks
 INFOPLIST_FILE = $(SRCROOT)/xcconfig-sample/Info.plist
 PRODUCT_MODULE_NAME = XcconfigSample

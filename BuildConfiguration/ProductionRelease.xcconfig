@@ -6,7 +6,9 @@
 //  Copyright © 2017 Futurice. All rights reserved.
 //
 
+#include "../Pods/Target Support Files/Pods-xcconfig-sample/Pods-xcconfig-sample.productionrelease.xcconfig"
 #include "Common/Common.xcconfig"
 #include "Environment/Production.xcconfig"
 #include "Build/Release.xcconfig"
+#include "Provisioning/Release.xcconfig"
 #include "Common/Combine.xcconfig"
