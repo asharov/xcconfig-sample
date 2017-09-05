@@ -1,0 +1,12 @@
+//
+//  ProductionDebug.xcconfig
+//  xcconfig-sample
+//
+//  Created by Jaakko Kangasharju on 29.08.17.
+//  Copyright © 2017 Futurice. All rights reserved.
+//
+
+#include "Common/Common.xcconfig"
+#include "Environment/Production.xcconfig"
+#include "Build/Debug.xcconfig"
+#include "Common/Combine.xcconfig"

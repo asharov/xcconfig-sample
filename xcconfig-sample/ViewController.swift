@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let title = UILabel()
+        title.font = UIFont.boldSystemFont(ofSize: 16)
+        title.text = Bundle.main.bundleIdentifier
+        title.sizeToFit()
+        view.addSubview(title)
+        title.center = view.center
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +28,3 @@ class ViewController: UIViewController {
 
 
 }
-

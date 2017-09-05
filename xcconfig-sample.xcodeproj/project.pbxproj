@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3FFEAF1F5ED2DC006854CB /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEAD1F5ED2DC006854CB /* Debug.xcconfig */; };
+		CE3FFEB01F5ED2DC006854CB /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEAE1F5ED2DC006854CB /* Release.xcconfig */; };
+		CE3FFEB41F5ED2EB006854CB /* Combine.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB11F5ED2EB006854CB /* Combine.xcconfig */; };
+		CE3FFEB51F5ED2EB006854CB /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB21F5ED2EB006854CB /* Common.xcconfig */; };
+		CE3FFEB61F5ED2EB006854CB /* Version.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB31F5ED2EB006854CB /* Version.xcconfig */; };
+		CE3FFEBA1F5ED2F3006854CB /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB71F5ED2F3006854CB /* Production.xcconfig */; };
+		CE3FFEBB1F5ED2F3006854CB /* Qa.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB81F5ED2F3006854CB /* Qa.xcconfig */; };
+		CE3FFEBC1F5ED2F3006854CB /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CE3FFEB91F5ED2F3006854CB /* Staging.xcconfig */; };
 		CEE6B8BA1F0BE2BF00977F8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6B8B91F0BE2BF00977F8D /* AppDelegate.swift */; };
 		CEE6B8BC1F0BE2BF00977F8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE6B8BB1F0BE2BF00977F8D /* ViewController.swift */; };
 		CEE6B8BF1F0BE2BF00977F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE6B8BD1F0BE2BF00977F8D /* Main.storyboard */; };
@@ -16,7 +24,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEE6B8B61F0BE2BF00977F8D /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3FFEAD1F5ED2DC006854CB /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CE3FFEAE1F5ED2DC006854CB /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB11F5ED2EB006854CB /* Combine.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Combine.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB21F5ED2EB006854CB /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB31F5ED2EB006854CB /* Version.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB71F5ED2F3006854CB /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB81F5ED2F3006854CB /* Qa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Qa.xcconfig; sourceTree = "<group>"; };
+		CE3FFEB91F5ED2F3006854CB /* Staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		CE49F1E61F55CB4800E11958 /* QaDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QaDebug.xcconfig; sourceTree = "<group>"; };
+		CE49F1E71F55CB5400E11958 /* QaRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QaRelease.xcconfig; sourceTree = "<group>"; };
+		CE49F1E81F55CB5D00E11958 /* StagingDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StagingDebug.xcconfig; sourceTree = "<group>"; };
+		CE49F1E91F55CB6700E11958 /* StagingRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StagingRelease.xcconfig; sourceTree = "<group>"; };
+		CE49F1EA1F55CB7200E11958 /* ProductionDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionDebug.xcconfig; sourceTree = "<group>"; };
+		CE49F1EB1F55CB7C00E11958 /* ProductionRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionRelease.xcconfig; sourceTree = "<group>"; };
+		CEE6B8B61F0BE2BF00977F8D /* XcconfigQa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcconfigQa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE6B8B91F0BE2BF00977F8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE6B8BB1F0BE2BF00977F8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEE6B8BE1F0BE2BF00977F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,10 +48,6 @@
 		CEE6B8CB1F0BE48C00977F8D /* xcconfig-sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcconfig-sample-Bridging-Header.h"; sourceTree = "<group>"; };
 		CEE6B8CC1F0BE48C00977F8D /* NSBundle+UrlAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+UrlAccess.h"; sourceTree = "<group>"; };
 		CEE6B8CD1F0BE48C00977F8D /* NSBundle+UrlAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+UrlAccess.m"; sourceTree = "<group>"; };
-		CEE6B8D11F0BED2D00977F8D /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		CEE6B8D21F0BED9100977F8D /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = "<group>"; };
-		CEE6B8D31F0BEDC400977F8D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		CEE6B8D41F0BEDCD00977F8D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3FFEAA1F5ED2A8006854CB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FFEB11F5ED2EB006854CB /* Combine.xcconfig */,
+				CE3FFEB21F5ED2EB006854CB /* Common.xcconfig */,
+				CE3FFEB31F5ED2EB006854CB /* Version.xcconfig */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE3FFEAB1F5ED2AE006854CB /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FFEAD1F5ED2DC006854CB /* Debug.xcconfig */,
+				CE3FFEAE1F5ED2DC006854CB /* Release.xcconfig */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		CE3FFEAC1F5ED2B3006854CB /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FFEB71F5ED2F3006854CB /* Production.xcconfig */,
+				CE3FFEB81F5ED2F3006854CB /* Qa.xcconfig */,
+				CE3FFEB91F5ED2F3006854CB /* Staging.xcconfig */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
 		CEE6B8AD1F0BE2BF00977F8D = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +102,7 @@
 		CEE6B8B71F0BE2BF00977F8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEE6B8B61F0BE2BF00977F8D /* .app */,
+				CEE6B8B61F0BE2BF00977F8D /* XcconfigQa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,15 +110,15 @@
 		CEE6B8B81F0BE2BF00977F8D /* xcconfig-sample */ = {
 			isa = PBXGroup;
 			children = (
+				CEE6B8CC1F0BE48C00977F8D /* NSBundle+UrlAccess.h */,
+				CEE6B8CB1F0BE48C00977F8D /* xcconfig-sample-Bridging-Header.h */,
+				CEE6B8CD1F0BE48C00977F8D /* NSBundle+UrlAccess.m */,
+				CEE6B8C51F0BE2BF00977F8D /* Info.plist */,
 				CEE6B8B91F0BE2BF00977F8D /* AppDelegate.swift */,
 				CEE6B8BB1F0BE2BF00977F8D /* ViewController.swift */,
-				CEE6B8BD1F0BE2BF00977F8D /* Main.storyboard */,
 				CEE6B8C01F0BE2BF00977F8D /* Assets.xcassets */,
 				CEE6B8C21F0BE2BF00977F8D /* LaunchScreen.storyboard */,
-				CEE6B8C51F0BE2BF00977F8D /* Info.plist */,
-				CEE6B8CC1F0BE48C00977F8D /* NSBundle+UrlAccess.h */,
-				CEE6B8CD1F0BE48C00977F8D /* NSBundle+UrlAccess.m */,
-				CEE6B8CB1F0BE48C00977F8D /* xcconfig-sample-Bridging-Header.h */,
+				CEE6B8BD1F0BE2BF00977F8D /* Main.storyboard */,
 			);
 			path = "xcconfig-sample";
 			sourceTree = "<group>";
@@ -79,20 +126,17 @@
 		CEE6B8CF1F0BEC2000977F8D /* BuildConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				CEE6B8D01F0BEC3A00977F8D /* Shared */,
+				CE49F1EA1F55CB7200E11958 /* ProductionDebug.xcconfig */,
+				CE49F1EB1F55CB7C00E11958 /* ProductionRelease.xcconfig */,
+				CE49F1E61F55CB4800E11958 /* QaDebug.xcconfig */,
+				CE49F1E71F55CB5400E11958 /* QaRelease.xcconfig */,
+				CE49F1E81F55CB5D00E11958 /* StagingDebug.xcconfig */,
+				CE49F1E91F55CB6700E11958 /* StagingRelease.xcconfig */,
+				CE3FFEAB1F5ED2AE006854CB /* Build */,
+				CE3FFEAA1F5ED2A8006854CB /* Common */,
+				CE3FFEAC1F5ED2B3006854CB /* Environment */,
 			);
 			path = BuildConfiguration;
-			sourceTree = "<group>";
-		};
-		CEE6B8D01F0BEC3A00977F8D /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				CEE6B8D11F0BED2D00977F8D /* Common.xcconfig */,
-				CEE6B8D21F0BED9100977F8D /* Version.xcconfig */,
-				CEE6B8D31F0BEDC400977F8D /* Debug.xcconfig */,
-				CEE6B8D41F0BEDCD00977F8D /* Release.xcconfig */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,7 +156,7 @@
 			);
 			name = "xcconfig-sample";
 			productName = "xcconfig-sample";
-			productReference = CEE6B8B61F0BE2BF00977F8D /* .app */;
+			productReference = CEE6B8B61F0BE2BF00977F8D /* XcconfigQa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,6 +172,7 @@
 				TargetAttributes = {
 					CEE6B8B51F0BE2BF00977F8D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7CESH35545;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -156,9 +201,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3FFEBB1F5ED2F3006854CB /* Qa.xcconfig in Resources */,
+				CE3FFEB41F5ED2EB006854CB /* Combine.xcconfig in Resources */,
+				CE3FFEAF1F5ED2DC006854CB /* Debug.xcconfig in Resources */,
+				CE3FFEBC1F5ED2F3006854CB /* Staging.xcconfig in Resources */,
+				CE3FFEBA1F5ED2F3006854CB /* Production.xcconfig in Resources */,
 				CEE6B8C41F0BE2BF00977F8D /* LaunchScreen.storyboard in Resources */,
 				CEE6B8C11F0BE2BF00977F8D /* Assets.xcassets in Resources */,
 				CEE6B8BF1F0BE2BF00977F8D /* Main.storyboard in Resources */,
+				CE3FFEB61F5ED2EB006854CB /* Version.xcconfig in Resources */,
+				CE3FFEB51F5ED2EB006854CB /* Common.xcconfig in Resources */,
+				CE3FFEB01F5ED2DC006854CB /* Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,112 +250,83 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEE6B8C61F0BE2BF00977F8D /* Debug */ = {
+		CE49F1EC1F55CC4500E11958 /* QaDebug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = QaDebug;
 		};
-		CEE6B8C71F0BE2BF00977F8D /* Release */ = {
+		CE49F1ED1F55CC4500E11958 /* QaDebug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1E61F55CB4800E11958 /* QaDebug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = QaDebug;
 		};
-		CEE6B8C91F0BE2BF00977F8D /* Debug */ = {
+		CE49F1EE1F55CC6600E11958 /* ProductionRelease */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
-			name = Debug;
+			name = ProductionRelease;
 		};
-		CEE6B8CA1F0BE2BF00977F8D /* Release */ = {
+		CE49F1EF1F55CC6600E11958 /* ProductionRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1EB1F55CB7C00E11958 /* ProductionRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = ProductionRelease;
+		};
+		CE49F1F01F55CC6800E11958 /* ProductionDebug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
-			name = Release;
+			name = ProductionDebug;
+		};
+		CE49F1F11F55CC6800E11958 /* ProductionDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1EA1F55CB7200E11958 /* ProductionDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = ProductionDebug;
+		};
+		CE49F1F21F55CC6B00E11958 /* StagingRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = StagingRelease;
+		};
+		CE49F1F31F55CC6B00E11958 /* StagingRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1E91F55CB6700E11958 /* StagingRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = StagingRelease;
+		};
+		CE49F1F41F55CC6D00E11958 /* StagingDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = StagingDebug;
+		};
+		CE49F1F51F55CC6D00E11958 /* StagingDebug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1E81F55CB5D00E11958 /* StagingDebug.xcconfig */;
+			buildSettings = {
+			};
+			name = StagingDebug;
+		};
+		CE49F1F61F55CC7100E11958 /* QaRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = QaRelease;
+		};
+		CE49F1F71F55CC7100E11958 /* QaRelease */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE49F1E71F55CB5400E11958 /* QaRelease.xcconfig */;
+			buildSettings = {
+			};
+			name = QaRelease;
 		};
 /* End XCBuildConfiguration section */
 
@@ -310,19 +334,28 @@
 		CEE6B8B11F0BE2BF00977F8D /* Build configuration list for PBXProject "xcconfig-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEE6B8C61F0BE2BF00977F8D /* Debug */,
-				CEE6B8C71F0BE2BF00977F8D /* Release */,
+				CE49F1EC1F55CC4500E11958 /* QaDebug */,
+				CE49F1F61F55CC7100E11958 /* QaRelease */,
+				CE49F1F41F55CC6D00E11958 /* StagingDebug */,
+				CE49F1F21F55CC6B00E11958 /* StagingRelease */,
+				CE49F1F01F55CC6800E11958 /* ProductionDebug */,
+				CE49F1EE1F55CC6600E11958 /* ProductionRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = QaDebug;
 		};
 		CEE6B8C81F0BE2BF00977F8D /* Build configuration list for PBXNativeTarget "xcconfig-sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEE6B8C91F0BE2BF00977F8D /* Debug */,
-				CEE6B8CA1F0BE2BF00977F8D /* Release */,
+				CE49F1ED1F55CC4500E11958 /* QaDebug */,
+				CE49F1F71F55CC7100E11958 /* QaRelease */,
+				CE49F1F51F55CC6D00E11958 /* StagingDebug */,
+				CE49F1F31F55CC6B00E11958 /* StagingRelease */,
+				CE49F1F11F55CC6800E11958 /* ProductionDebug */,
+				CE49F1EF1F55CC6600E11958 /* ProductionRelease */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = QaDebug;
 		};
 /* End XCConfigurationList section */
 	};

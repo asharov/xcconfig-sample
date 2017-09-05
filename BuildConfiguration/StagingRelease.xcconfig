@@ -1,0 +1,12 @@
+//
+//  StagingRelease.xcconfig
+//  xcconfig-sample
+//
+//  Created by Jaakko Kangasharju on 29.08.17.
+//  Copyright © 2017 Futurice. All rights reserved.
+//
+
+#include "Common/Common.xcconfig"
+#include "Environment/Staging.xcconfig"
+#include "Build/Release.xcconfig"
+#include "Common/Combine.xcconfig"
