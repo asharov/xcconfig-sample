@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -16,9 +17,14 @@ class ViewController: UIViewController {
         let title = UILabel()
         title.font = UIFont.boldSystemFont(ofSize: 16)
         title.text = Bundle.main.bundleIdentifier
-        title.sizeToFit()
+        title.textAlignment = .center
         view.addSubview(title)
-        title.center = view.center
+
+        title.snp.makeConstraints { make in
+            make.top.equalTo(topLayoutGuide.snp.bottom)
+            make.leading.trailing.equalTo(view)
+            make.height.equalTo(44)
+        }
     }
 
     override func didReceiveMemoryWarning() {
