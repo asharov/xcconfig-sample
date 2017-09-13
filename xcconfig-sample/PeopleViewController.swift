@@ -16,6 +16,8 @@ class PeopleViewController: UIViewController, UITableViewDataSource, UITableView
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "People"
+
         view.backgroundColor = UIColor.white
 
         let title = UILabel()
@@ -71,5 +73,12 @@ class PeopleViewController: UIViewController, UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel?.text = person.firstName + " " + person.lastName
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = people[indexPath.row]
+        let viewController = PersonViewController(person: person)
+        self.navigationController?.pushViewController(viewController, animated: true)
+        tableView.deselectRow(at: indexPath, animated: false)
     }
 }
