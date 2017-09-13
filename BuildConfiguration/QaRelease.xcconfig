@@ -9,6 +9,6 @@
 #include "../Pods/Target Support Files/Pods-xcconfig-sample/Pods-xcconfig-sample.qarelease.xcconfig"
 #include "Common/Common.xcconfig"
 #include "Environment/Qa.xcconfig"
-#include "Build/Release.xcconfig"
+#include "BuildType/Release.xcconfig"
 #include "Provisioning/Internal.xcconfig"
 #include "Common/Combine.xcconfig"

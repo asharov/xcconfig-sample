@@ -9,6 +9,6 @@
 #include "../Pods/Target Support Files/Pods-xcconfig-sample/Pods-xcconfig-sample.stagingdebug.xcconfig"
 #include "Common/Common.xcconfig"
 #include "Environment/Staging.xcconfig"
-#include "Build/Debug.xcconfig"
+#include "BuildType/Debug.xcconfig"
 #include "Provisioning/Debug.xcconfig"
 #include "Common/Combine.xcconfig"
