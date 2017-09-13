@@ -10,4 +10,4 @@ PRODUCT_NAME = Xcconfig
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
 PRODUCT_BUNDLE_IDENTIFIER = fi.iki.ashar.xcconfig-sample
 DISPLAY_NAME = Xcconfig
-BACKEND_BASE_URL = https:/ /xcconfig-sample-production.herokuapp.com/
+BACKEND_BASE_URL = https:/ /xcconfig-sample-production.herokuapp.com
