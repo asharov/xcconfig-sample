@@ -2,9 +2,6 @@
 //  PersonViewController.swift
 //  xcconfig-sample
 //
-//  Created by Jaakko Kangasharju on 13.09.17.
-//  Copyright © 2017 Futurice. All rights reserved.
-//
 
 import UIKit
 import SnapKit

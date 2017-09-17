@@ -2,9 +2,6 @@
 //  Release.xcconfig
 //  xcconfig-sample
 //
-//  Created by Jaakko Kangasharju on 04.07.17.
-//  Copyright © 2017 Futurice. All rights reserved.
-//
 
 VALIDATE_PRODUCT = YES
 SWIFT_OPTIMIZATION_LEVEL = -Owholemodule

@@ -2,9 +2,6 @@
 //  Person.swift
 //  xcconfig-sample
 //
-//  Created by Jaakko Kangasharju on 12.09.17.
-//  Copyright © 2017 Futurice. All rights reserved.
-//
 
 import Foundation
 

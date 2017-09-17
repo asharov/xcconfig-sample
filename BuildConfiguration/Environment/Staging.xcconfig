@@ -2,9 +2,6 @@
 //  Staging.xcconfig
 //  xcconfig-sample
 //
-//  Created by Jaakko Kangasharju on 29.08.17.
-//  Copyright © 2017 Futurice. All rights reserved.
-//
 
 PRODUCT_NAME = XcconfigStaging
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-Staging
